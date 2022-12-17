@@ -20,7 +20,7 @@
 
 /** Using environment variables for DB connection information */
 $connectstr_dbhost = 'henutsenserverexp.mysql.database.azure.com';
-$connectstr_dbname = 'sys';
+$connectstr_dbname = 'henutbd';
 $connectstr_dbusername = 'henutsen';
 $connectstr_dbpassword = 'H3nu7s3n*';
 
