@@ -19,8 +19,8 @@
  */
 
 /** Using environment variables for DB connection information */
-$connectstr_dbhost = 'henutsenserverexp.mysql.database.azure.com';
-$connectstr_dbname = 'henutbd';
+$connectstr_dbhost = 'mysql-hen-wp-exp-eastus.mysql.database.azure.com';
+$connectstr_dbname = 'flexibleserverdb';
 $connectstr_dbusername = 'henutsen';
 $connectstr_dbpassword = 'H3nu7s3n*';
 
