@@ -1,4 +1,5 @@
 <?php
+ $_SERVER["HTTPS"] = "on";
 /**
  * The base configuration for WordPress
  *
@@ -77,7 +78,7 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
  * well-privileged user account.
  * Note : If your plugin or theme you use with your app requires editing of the files , comment the line below for 'DISALLOW_FILE_EDIT'
  */
-define('DISALLOW_FILE_EDIT', true);
+/*define('DISALLOW_FILE_EDIT', true);*/
 
 /**#@-*/
 
@@ -106,10 +107,12 @@ define( 'WP_DEBUG', false );
 /* Add any custom values between this line and the "stop editing" line. */
 
 /** Relative URLs for swapping across App Service deployment slots */
+/*define('WP_HOME', 'http://audisoft.link');
+define('WP_SITEURL', 'http://audisoft.link');*/
 define('WP_HOME', 'http://'. filter_input(INPUT_SERVER, 'HTTP_HOST', FILTER_SANITIZE_STRING));
 define('WP_SITEURL', 'http://'. filter_input(INPUT_SERVER, 'HTTP_HOST', FILTER_SANITIZE_STRING));
-define('WP_CONTENT_URL', '/wp-content');
-define('DOMAIN_CURRENT_SITE', filter_input(INPUT_SERVER, 'HTTP_HOST', FILTER_SANITIZE_STRING));
+/*define('WP_CONTENT_URL', '/wp-content');
+define('DOMAIN_CURRENT_SITE', filter_input(INPUT_SERVER, 'HTTP_HOST', FILTER_SANITIZE_STRING));*/
 
 
 /* That's all, stop editing! Happy publishing. */
