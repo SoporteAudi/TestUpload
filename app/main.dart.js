@@ -34308,7 +34308,7 @@ while(true)switch(s){case 0:q=$
 p=t.P
 o=B.H
 s=2
-return A.f($.T7().aD8("config/prod_config.json"),$async$an3)
+return A.f($.T7().aD8("config/qa_config.json"),$async$an3)
 case 2:q.c1=p.a(o.V(0,b))
 return A.o(null,r)}})
 return A.p($async$an3,r)},
@@ -101141,7 +101141,7 @@ h=h.b
 n=A.d(j)+" "+A.d(i)
 m=p.x.b
 m.toString
-p.j1(B.H.bq(new A.vk(A.a([m],t.s),"soporte@audisoft.com","Bienvenida Henutsen","d-8a15a7d73b534370b06b86896d47d645","henutsen",null,new A.awe(o,h,n),null),null))}h=A.es("/gestion-usuarios")
+p.j1(B.H.bq(new A.vk(A.a([m],t.s),"soporte@audisoft.com","Bienvenida Henutsen","d-2d3bed45bb7b49a89731a01294f1677a","henutsen",null,new A.awe(o,h,n),null),null))}h=A.es("/gestion-usuarios")
 A.a1(q.e,!1).d7(h)
 s=3
 break
@@ -104893,7 +104893,7 @@ q=a.b.length
 s=q!==0?q+1:1
 q=t.z
 r=t.N
-return A.T(["To",A.dh([b],!0,q),"From","soporte@audisoft.com","Subject","Autorizaci\xf3n de salida #"+s,"Body","d-69321d2c005749498115ccacd1eb9251","Client","henutsen","Authorization",A.T(["Type",p,"Number",B.f.j(s),"Items",a.d],r,t.K)],r,q)},
+return A.T(["To",A.dh([b],!0,q),"From","soporte@audisoft.com","Subject","Autorizaci\xf3n de salida #"+s,"Body","d-3dc38bc5e9c942689a9d387b29e91d51","Client","henutsen","Authorization",A.T(["Type",p,"Number",B.f.j(s),"Items",a.d],r,t.K)],r,q)},
 zm(a,b,c){var s=null,r=A.N(a).i("D<1,bn<k>>"),q=A.a0(new A.D(a,new A.ahr(c),r),!0,r.i("ah.E"))
 B.b.d6(q,0,A.bD(A.a2(A.h(b,s,s,s,s,B.r,s,s,s),s,c),b,t.N))
 return q}}
